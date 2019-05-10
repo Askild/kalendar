@@ -1,0 +1,67 @@
+@import '~@fullcalendar/core/main.css';
+// @import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/timegrid/main.css';
+
+.skravert-red {
+    background-image: linear-gradient(45deg, #dddddd 33.33%, #ffffff 33.33%, #ffffff 50%, #dddddd 50%, #dddddd 83.33%, #ffffff 83.33%, #ffffff 100%);
+background-size: 42.43px 42.43px;
+    // color: white !important;
+    // transform: rotateZ(45deg);
+}
+
+
+.fc-time-grid .fc-slats td{
+    height: 2.95em;
+}
+
+.fc-now-indicator {
+    border-width: 6px;
+    border-color: #D51067;
+}
+
+.fc-now-indicator-arrow {
+    border-width: 10px 0 10px 12px !important;
+    margin-top: -6px !important;
+}
+
+.kalendar-wrapper {
+    padding: 20px;
+}
+
+.fc-head {
+    background-color: #ddd;
+}
+
+.event {
+    color: black;
+    font-weight: 900;
+    border: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 6px;
+    margin: 3px;
+
+    .fc-time {
+        font-size: .8em;
+    }
+    .fc-title {
+        font-size: 1.2em;
+    }
+}
+
+.event.red {
+    background-color: #F0B3CA;
+
+}
+
+.event.blue {
+    background-color: #AFD8F1;
+}
+
+.event.purple {
+    background-color: #D3BFDB
+}
+
+.event.yellow {
+    background-color: #FFF2A7
+}
